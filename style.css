@@ -1,0 +1,124 @@
+body{
+    position: relative;
+    width: 1920;
+    height: 1080;
+    background: #F3F5FC;
+}
+.caja{
+    width: 31.09px;
+    height: 46.37;
+    top: 73.42px;
+    left: 40px;
+}
+.logo{
+    /*posicion de la imagen */
+    position: absolute;
+    left: 5.21%;
+    right: 90.74%;
+    top: 6.25%;
+    bottom: 89.8%;
+
+} 
+/*texto */
+.text{
+    position: absolute;
+    height: 48px;
+    width: 577px;
+    left: 230px;
+    top: 168px;
+    border-radius: 24px;
+    /*fuente del texto */
+    font-size: 32px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /*color de la letra*/
+    color: #0A3871;
+    background: #eef2ff;
+    border: none;
+}
+
+/*botones */
+.boton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 600px;
+    right: 67px;
+    left: 240px;
+    top: 550px;
+}
+
+.btn{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0A3871;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}   
+
+.btn:hover{
+    background: #05264e;
+    transform: scale(1.1);
+}
+
+.btn1{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}  
+.btn1:hover{
+    background: #c1d0e2;
+    transform: scale(1.1);
+}
+
+.rectangulo{
+    position:absolute;
+    width: 400px;
+    height: 600px;
+    top: 40px;
+    left: 900px;
+
+    background: #ffffff;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+.text-input-salida{
+    position: relative;
+    top: 10%;
+    width: 390px; 
+    height: 68px;
+    border: none;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+  /* descubrir como desplegar mas el label*/
+
+
+
+    
+
